@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1 class="titulo">Calculadora</h1>
+    <div class="contenedor-alineacion">
+        <div class="contenedor-card-calculadora">
+            <input type="text" id="Pantalla" disabled class="pantalla">
+            <button onclick="inputValor('1')" id="boton1" class="botones">1</button>
+            <button onclick="inputValor('2')" id="boton2" class="botones">2</button>
+            <button onclick="inputValor('3')" id="boton3" class="botones">3</button>
+            <button onclick="inputValor('4')" id="boton4" class="botones">4</button>
+            <button onclick="inputValor('5')" id="boton5" class="botones">5</button>
+            <button onclick="inputValor('6')" id="boton6" class="botones">6</button>
+            <button onclick="inputValor('7')" id="boton7" class="botones">7</button>
+            <button onclick="inputValor('8')" id="boton8" class="botones">8</button>
+            <button onclick="inputValor('9')" id="boton9" class="botones">9</button>
+            <button onclick="inputValor('0')" id="boton0" class="botones">0</button>
+            <button onclick="inputValor('.')" id="botonPunto" class="botones">.</button>
+            <button onclick="inputValor('+')" id="botonSuma" class="botones">+</button>
+            <button onclick="inputValor('-')" id="botonResta" class="botones">-</button>
+            <button onclick="inputValor('*')" id="botonMultiplicar" class="botones">x</button>
+            <button onclick="inputValor('/')" id="botonDividir" class="botones">/</button>
+            <button onclick="calcular()" id="botonIgual" class="botones">=</button>
+            <button onclick="borrar()" id="botonBorrar" class="botones">C</button>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
